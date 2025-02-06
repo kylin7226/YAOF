@@ -2,10 +2,8 @@
 
 #额外的个性包准备
 #ddns-go
-mkdir -p ./package/new/ddns-go
-cp -rf ../zxlhhyccc/zxlhhyccc/ddns-go/luci-app-ddns-go ./package/new/ddns-go/
-cp -rf ../zxlhhyccc/zxlhhyccc/ddns-go/ddns-go ./package/new/ddns-go/
-
+mkdir -p ./package/new
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/new/ddns-go
 
 echo "修改LAN ip"
 lan_ip='192.168.199.1'	
