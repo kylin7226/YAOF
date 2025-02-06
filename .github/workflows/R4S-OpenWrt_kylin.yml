@@ -3,7 +3,7 @@ name: R4S-OpenWrt_kylin
 on:
    push:
      branches:
-       - 23.05
+       - 24.10
      paths:
        - 'date'
 
