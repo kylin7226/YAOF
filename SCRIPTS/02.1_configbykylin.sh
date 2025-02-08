@@ -4,6 +4,7 @@
 #ddns-go
 mkdir -p ./package/new
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/new/ddns-go
+git clone  https://github.com/Turing-China/luci-app-ap-modem.git package/new/luci-app-ap-modem
 
 echo "修改LAN ip"
 lan_ip='192.168.199.1'	
